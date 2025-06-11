@@ -1,0 +1,45 @@
+# Source files
+src/
+__tests__/
+*.test.*
+*.spec.*
+*.stories.*
+
+# Configuration files
+tsconfig.json
+eslint.config.mjs
+vite.config.ts
+vitest.setup.ts
+.gitignore
+.npmrc
+.prettierignore
+.eslintignore
+
+# Development tools
+.vscode/
+.idea/
+.github/
+coverage/
+.nyc_output/
+
+# Build artifacts
+*.tsbuildinfo
+*.map
+*.d.ts.map
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+
+# Keep these
+!dist/
+!lib/
+!LICENSE
+!package.json
