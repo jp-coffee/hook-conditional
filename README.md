@@ -76,6 +76,34 @@ Switches between custom hooks based on a condition. All mapped hooks are **alway
 
 - `TResult` — The result of the matched hook (or fallback hook if no match is found).
 
+## 🔒 Security & Provenance
+
+This package is published with **NPM Package Provenance**, which provides cryptographic proof that the package was built from the source code in this repository using GitHub Actions.
+
+### Verifying Package Authenticity
+
+You can verify the package's provenance using:
+
+```bash
+# Install the package
+npm install hook-conditional
+
+# Verify the provenance
+npm audit signatures
+
+# Or use the provided verification script
+npm run verify-provenance
+```
+
+### What This Means
+
+- ✅ **Authentic Source**: The package was built from this exact repository
+- ✅ **Secure Build**: Built in a trusted GitHub Actions environment
+- ✅ **Tamper-Proof**: Cryptographically signed to prevent supply chain attacks
+- ✅ **Transparent**: You can verify the build process and source code
+
+For more information about NPM Package Provenance, see the [official documentation](https://docs.npmjs.com/generating-provenance-statements).
+
 ## 💡 Examples
 
 ### Role-based hook switching

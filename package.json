@@ -1,7 +1,7 @@
 {
   "name": "hook-conditional",
   "displayName": "React Hook Conditional",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Conditionally run different React hooks at runtime with a clean and safe API that follows the Rules of Hooks.",
   "publishConfig": {
     "access": "public",
@@ -19,6 +19,16 @@
   "bugs": {
     "url": "https://github.com/jp-coffee/hook-conditional/issues"
   },
+  "homepage": "https://github.com/jp-coffee/hook-conditional#readme",
+  "keywords": [
+    "react",
+    "hooks",
+    "conditional",
+    "runtime",
+    "dynamic",
+    "state-management",
+    "typescript"
+  ],
   "files": [
     "dist"
   ],
@@ -36,7 +46,8 @@
     "prebuild": "npm run clean",
     "test": "vitest run",
     "test:watch": "vitest --watch",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "verify-provenance": "./scripts/verify-provenance.sh"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
